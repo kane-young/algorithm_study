@@ -8,4 +8,4 @@ commit comment: "2021/01/06 [update/create/delete]"
 
 2021/01/06 : not greedy(10757, 1011), greedy(2839, 11399, 11047)
 
-2021/01/07 : greedy(1931, 5585, 2217)
+2021/01/07 : greedy([1931](https://github.com/leeyoungwoozz/algorithm_study/blob/main/정리/question_%201931.md), 5585, 2217)
