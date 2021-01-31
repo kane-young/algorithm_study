@@ -11,3 +11,5 @@ commit comment: "2021/01/06 [update/create/delete]"
 2021/01/07 : greedy([1931](https://github.com/leeyoungwoozz/algorithm_study/blob/main/정리/question_%201931.md), 5585, 2217)
 
 2021/01/11 : greedy(1541, 1946-> 시간초과 다수 발생문제)
+
+2021/01/30
