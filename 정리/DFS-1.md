@@ -1,0 +1,44 @@
+## 동빈나 유튜브에서 본 예제 문제
+
+### DFS 알고리즘 설명과 예제 -1
+
+#### DFS/BFS
+
+- 탐색이란 많은 양의 데이터 중에서 원하는 데이터를 찾는 과정을 말한다.
+- 대표적인 그래프 탐색 알고리즘으로는 DFS와 BFS가 있습니다.
+- DFS/BFS는 코딩 테스트에서 매우 자주 등장하는 유형이므로 반드시 숙지해야 한다
+
+
+#### DFS(Depth - First Search)
+깊이 우선 탐색이라고도 부르며 그래프에서 깊은 부분을 우선적으로 탐색하는 알고리즘이다.
+
+DFS는 스택 자료구조를 이용하며, 구체적인 동작 과정은 다음과 같다.
+1. 탐색 시작 노드를 스택에 삽입하고 방문 처리를 한다.
+2. 스택의 최상단 노드에 방문하지 않은 인접한 노드가 하나라도 있으면 그 노드를 스택에 넣고 방문 처리한다. 방문하지 않은 인접 노드가 없으면 스택에서 최상단 노드를 꺼낸다.
+3. 더 이상 2번의 과정을 수행할 수 없을  때까지 반복한다.
+
+[유튜브 링크 참조](https://www.youtube.com/watch?v=7C9RgOcvkvo&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC&index=3)
+26:00 시간 참조
+
+예제) 
+~~~
+//swfit code
+
+let array = [[], [2,3,8], [1,7], [1,4,5], [3,5], [3,4], [7], [2,6,8], [1,7]]
+//각 노드가 연결된 정보를 표현(2차원 리스트)
+
+var visited = Array(repeating: false, count: 9)
+
+func dfs(_ x: Int){
+    visited[x] = true
+    print(x, terminator: " ")
+    
+    for i in array[x]{
+        if !visited[i]{
+            dfs(i)
+        }
+    }
+}
+
+dfs(1)
+~~~
