@@ -1,21 +1,24 @@
-# algorithm_study
+# algorithm_study(with Swift)
 baekjoon_algorithm
+나동빈 "이것이 취업을 위한 코딩 테스트다" with 파이썬 기록하기
+참고 : [Swift algorithm club](https://github.com/raywenderlich/swift-algorithm-club)
 
-commit comment: "2021/01/06 [update/create/delete]"
-& 백준 문제 번호 기록(몰랐던 중요 내용은 .md로 기록)
 
-## 2021/01/06 부터 그리디 알고리즘부터 시작해서 기록하자
+commit convention
+ex) "2021/06/01 [Feat / Refactor / Style / Delete]"
 
-2021/01/06 : not greedy(10757, 1011), greedy(2839, 11399, 11047)
+## 목차
 
-2021/01/07 : greedy([1931](https://github.com/leeyoungwoozz/algorithm_study/blob/main/정리/question_%201931.md), 5585, 2217)
+2021/01/06 : 10757, 1011 2839, 11399, 11047
 
-2021/01/11 : greedy(1541, 1946-> 시간초과 다수 발생문제)
+2021/01/07 : 1931, 5585, 2217 
 
-2021/01/30
+2021/01/11 : (1541, 1946-> 시간초과 다수 발생문제)
 
 2021/02/02: 1080
 
 2021/02/03: 4796
 
-2021/02/04: 1744, 1715(heap 구조 어렵다)
+2021/02/04: 1744, 1715(heap 구조 hard...)
+
+2021/06/01: notion 기록 이전
