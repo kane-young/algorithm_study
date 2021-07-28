@@ -8,8 +8,7 @@
 import Foundation
 
 func start() {
-    체스판다시칠하기()
+    직사각형에서탈출_2()
 }
 
 start()
-
