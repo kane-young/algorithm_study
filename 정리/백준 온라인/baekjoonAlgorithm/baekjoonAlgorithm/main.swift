@@ -8,7 +8,7 @@
 import Foundation
 
 func start() {
-    직사각형에서탈출_2()
+    단어정렬()
 }
 
 start()
