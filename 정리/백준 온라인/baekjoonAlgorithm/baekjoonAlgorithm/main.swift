@@ -8,7 +8,7 @@
 import Foundation
 
 func start() {
-    단어정렬()
+    팰린드롬수_2()
 }
 
 start()
