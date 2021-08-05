@@ -12,6 +12,7 @@
 		C36F280126B04D9200563B3C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F280026B04D9200563B3C /* main.swift */; };
 		C36F280826B04DAF00563B3C /* 체스판다시칠하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36F280726B04DAF00563B3C /* 체스판다시칠하기.swift */; };
 		C37EBBDE26B1AE590082DEF4 /* 직사각형에서탈출.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37EBBDD26B1AE590082DEF4 /* 직사각형에서탈출.swift */; };
+		C3C2B47126B98FB100CC38BD /* 영화감독숌.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C2B47026B98FB100CC38BD /* 영화감독숌.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		C36F280026B04D9200563B3C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C36F280726B04DAF00563B3C /* 체스판다시칠하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "체스판다시칠하기.swift"; sourceTree = "<group>"; };
 		C37EBBDD26B1AE590082DEF4 /* 직사각형에서탈출.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "직사각형에서탈출.swift"; sourceTree = "<group>"; };
+		C3C2B47026B98FB100CC38BD /* 영화감독숌.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "영화감독숌.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				C37EBBDD26B1AE590082DEF4 /* 직사각형에서탈출.swift */,
 				C30C15FC26B4CB0A000CDF88 /* 단어정렬.swift */,
 				C30C15FE26B4D01A000CDF88 /* 팰린드롬수.swift */,
+				C3C2B47026B98FB100CC38BD /* 영화감독숌.swift */,
 			);
 			path = baekjoonAlgorithm;
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 				C36F280126B04D9200563B3C /* main.swift in Sources */,
 				C37EBBDE26B1AE590082DEF4 /* 직사각형에서탈출.swift in Sources */,
 				C30C15FF26B4D01A000CDF88 /* 팰린드롬수.swift in Sources */,
+				C3C2B47126B98FB100CC38BD /* 영화감독숌.swift in Sources */,
 				C30C15FD26B4CB0A000CDF88 /* 단어정렬.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

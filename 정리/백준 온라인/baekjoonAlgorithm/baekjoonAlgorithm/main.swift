@@ -8,7 +8,7 @@
 import Foundation
 
 func start() {
-    팰린드롬수_2()
+    영화감독숌()
 }
 
 start()
