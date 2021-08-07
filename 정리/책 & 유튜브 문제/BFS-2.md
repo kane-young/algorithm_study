@@ -4,6 +4,12 @@
 
 미로 탈출 문제
 
+미로 탈출 알고리즘의 경우 가장 최단 거리를 구해야 된다.
+
+이 문제의 가장 Key Point는 for 문 내에서 array[nx][ny] 값이 1일때 queue에 해당 노드를 추가해주는 것 같다.
+
+1이 아니면 이미 다른 노드에서 접근을 한 번 했다는 것이기에 접근할 이유가 없다!!
+
 ~~~
 let input = readLine()!.split(separator: " ").map{ Int($0)! }
 
@@ -63,5 +69,4 @@ func escape(x: Int, y: Int) -> Int{
 }
 
 print(escape(x: 0, y: 0))
-
 ~~~

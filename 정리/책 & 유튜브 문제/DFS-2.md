@@ -2,11 +2,9 @@
 
 ### DFS 알고리즘 설명과 예제 -1
 
-DFS에 대한 이해력이 아직 많이 필요하다(원리에 대한 이해)
+음료수 얼려 먹기 문제
 
-아래 문제는 [유튜브 링크 참조](https://www.youtube.com/watch?v=7C9RgOcvkvo&list=WL&index=1&t=2666s) 44:00 에 대한 문제이다.
-문제에 대한 이해를 하는데 굉장히 오래 걸렸다
-
+Stack 자료구조와 연관지어서 생각하면 굉장히 이해가 빠르다
 
 ~~~
 let input = readLine()!.split(separator: " ").map{ Int($0)! }

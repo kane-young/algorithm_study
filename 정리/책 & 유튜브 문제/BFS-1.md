@@ -38,7 +38,6 @@ func bfs(start: Int){
     }
 }
 
-
 bfs(start: 1)
 //1 2 3 8 7 4 5 6
 ~~~
