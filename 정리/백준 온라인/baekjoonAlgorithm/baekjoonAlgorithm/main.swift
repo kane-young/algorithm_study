@@ -8,7 +8,7 @@
 import Foundation
 
 func start() {
-    스택수열()
+    랜선자르기3()
 }
 
 start()
