@@ -8,7 +8,7 @@
 import Foundation
 
 func start() {
-    영화감독숌()
+    스택수열()
 }
 
 start()
