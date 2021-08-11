@@ -10,6 +10,7 @@
 		C3832AF926A8777C0033D912 /* 크레인인형뽑기게임.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3832AF826A8777C0033D912 /* 크레인인형뽑기게임.swift */; };
 		C39A133026A7174F00105830 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A132F26A7174F00105830 /* main.swift */; };
 		C39A133726A717FF00105830 /* 키패드누르기.swift in Sources */ = {isa = PBXBuildFile; fileRef = C39A133626A717FF00105830 /* 키패드누르기.swift */; };
+		C3DB7D7E26C41F3300614E57 /* 타겟넘버.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3DB7D7D26C41F3300614E57 /* 타겟넘버.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		C39A132C26A7174E00105830 /* Programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers; sourceTree = BUILT_PRODUCTS_DIR; };
 		C39A132F26A7174F00105830 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C39A133626A717FF00105830 /* 키패드누르기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "키패드누르기.swift"; sourceTree = "<group>"; };
+		C3DB7D7D26C41F3300614E57 /* 타겟넘버.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "타겟넘버.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				C39A132F26A7174F00105830 /* main.swift */,
+				C3DB7D7D26C41F3300614E57 /* 타겟넘버.swift */,
 				C39A133626A717FF00105830 /* 키패드누르기.swift */,
 				C3832AF826A8777C0033D912 /* 크레인인형뽑기게임.swift */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				C3832AF926A8777C0033D912 /* 크레인인형뽑기게임.swift in Sources */,
 				C39A133026A7174F00105830 /* main.swift in Sources */,
+				C3DB7D7E26C41F3300614E57 /* 타겟넘버.swift in Sources */,
 				C39A133726A717FF00105830 /* 키패드누르기.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
