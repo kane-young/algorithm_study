@@ -6,10 +6,10 @@
 //
 
 import Foundation
-
+//
 class Programmers {
     func start() {
-        타겟넘버([1,1,1,1,1], 3)
+        
     }
 }
 
