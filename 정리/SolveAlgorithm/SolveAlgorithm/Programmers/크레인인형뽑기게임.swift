@@ -7,29 +7,28 @@
 
 import Foundation
 
-extension Programmers {
-    func 크레인인형뽑기게임(_ board:[[Int]], _ moves:[Int]) -> Int {
-        var board: [[Int]] = board
-        var basket: Stack = Stack()
-        
-        func rotateArray(_ num: Int) {
-            for i in 0..<board.count {
-                if board[i][num-1] != 0 {
-                    basket.push(board[i][num-1])
-                    board[i][num-1] = 0
-                    return
-                }
+func 크레인인형뽑기게임(_ board:[[Int]], _ moves:[Int]) -> Int {
+    var board: [[Int]] = board
+    var basket: Stack = Stack()
+    
+    func rotateArray(_ num: Int) {
+        for i in 0..<board.count {
+            if board[i][num-1] != 0 {
+                basket.push(board[i][num-1])
+                board[i][num-1] = 0
+                return
             }
         }
-        
-        for move in moves {
-            rotateArray(move)
-        }
-        return basket.result
     }
+    
+    for move in moves {
+        rotateArray(move)
+    }
+    return basket.result
 }
 
-struct Stack {
+
+fileprivate struct Stack {
     var array: [Int] = []
     var result = 0
     
