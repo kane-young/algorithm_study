@@ -44,3 +44,43 @@ import 할 필요 없이 사용할 수 있는 기본 method
 
 - [String.SubSequence]를 리턴해서 map 으로 처리를 해주어야 함
 - 용량이 적다
+
+
+<br>
+
+## 소수점 다루기
+
+### ceil, floor, truc, round
+
+1. ceil (소수점 올림)
+2. floor (소수점 내림)
+3. truc (소수점 버림)
+4. round (소수점 반올림)
+
+```swift
+ceil(1.1) // 2.0
+floor(1.1) // 1.0
+truc(1.1) // 1.0
+round(1.1) // 1.0
+```
+
+## zip
+
+두개의 sequence를 합쳐서 튜플을 element 로 가지는 하나의 sequence로 리턴
+
+```swift
+
+let sequence1 = ["kim", "lee", "park", "choi"]
+let sequence2 = [1, 2, 3, 4]
+
+let sequenceZip = zip(sequence1, sequence2)
+
+for i in sequenceZip {
+    print(i)
+}
+//("kim", 1)
+//("lee", 2)
+//("park", 3)
+//("choi", 4)
+```
+
