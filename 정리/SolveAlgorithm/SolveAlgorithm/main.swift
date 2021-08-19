@@ -7,5 +7,5 @@
 
 import Foundation
 
-let result = truckOnTheTruck(100, 100, [10,10,10,10,10,10,10,10,10,10])
+let result = developeFunction([93, 30, 55], [1, 30, 5])
 print(result)
