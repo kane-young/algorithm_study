@@ -7,5 +7,5 @@
 
 import Foundation
 
-let result = developeFunction([93, 30, 55], [1, 30, 5])
+let result = repressString("ababcdcdababcdcd")
 print(result)
