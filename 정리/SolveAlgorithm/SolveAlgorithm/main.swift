@@ -7,5 +7,4 @@
 
 import Foundation
 
-let result = repressString("ababcdcdababcdcd")
-print(result)
+searchNumber()
