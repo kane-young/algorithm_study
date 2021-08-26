@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C31A46F826D7D1410095BB02 /* MakeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A46F726D7D1410095BB02 /* MakeOne.swift */; };
 		C32BCE6526D14CB900CFFF27 /* 문자열압축.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BCE6426D14CB900CFFF27 /* 문자열압축.swift */; };
 		C32BCE6726D29EC300CFFF27 /* 수찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BCE6626D29EC300CFFF27 /* 수찾기.swift */; };
 		C368154D26CB4A8200A22EF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C368154C26CB4A8200A22EF1 /* main.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C31A46F726D7D1410095BB02 /* MakeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOne.swift; sourceTree = "<group>"; };
 		C32BCE6426D14CB900CFFF27 /* 문자열압축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열압축.swift"; sourceTree = "<group>"; };
 		C32BCE6626D29EC300CFFF27 /* 수찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수찾기.swift"; sourceTree = "<group>"; };
 		C368154926CB4A8200A22EF1 /* SolveAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SolveAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +70,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C31A46F626D7D1070095BB02 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				C31A46F726D7D1410095BB02 /* MakeOne.swift */,
+			);
+			path = Books;
+			sourceTree = "<group>";
+		};
 		C368154026CB4A8200A22EF1 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				C368154C26CB4A8200A22EF1 /* main.swift */,
+				C31A46F626D7D1070095BB02 /* Books */,
 				C368155326CB4A8A00A22EF1 /* BaekJoon */,
 				C368157126CB4B7900A22EF1 /* Programmers */,
 			);
@@ -181,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C32BCE6726D29EC300CFFF27 /* 수찾기.swift in Sources */,
+				C31A46F826D7D1410095BB02 /* MakeOne.swift in Sources */,
 				C38126E926CEAA9F00E436BA /* 기능개발.swift in Sources */,
 				C368156E26CB4B3F00A22EF1 /* 팰린드롬수.swift in Sources */,
 				C368156C26CB4B3F00A22EF1 /* 직사각형에서탈출.swift in Sources */,

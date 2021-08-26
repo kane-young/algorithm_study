@@ -7,4 +7,5 @@
 
 import Foundation
 
-searchNumber()
+let result = makeOne(26)
+print(result)
