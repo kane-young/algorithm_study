@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C31A46F826D7D1410095BB02 /* MakeOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A46F726D7D1410095BB02 /* MakeOne.swift */; };
+		C31A46FA26D7DC420095BB02 /* 멀쩡한사각형.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31A46F926D7DC420095BB02 /* 멀쩡한사각형.swift */; };
 		C32BCE6526D14CB900CFFF27 /* 문자열압축.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BCE6426D14CB900CFFF27 /* 문자열압축.swift */; };
 		C32BCE6726D29EC300CFFF27 /* 수찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32BCE6626D29EC300CFFF27 /* 수찾기.swift */; };
 		C368154D26CB4A8200A22EF1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C368154C26CB4A8200A22EF1 /* main.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		C31A46F726D7D1410095BB02 /* MakeOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOne.swift; sourceTree = "<group>"; };
+		C31A46F926D7DC420095BB02 /* 멀쩡한사각형.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "멀쩡한사각형.swift"; sourceTree = "<group>"; };
 		C32BCE6426D14CB900CFFF27 /* 문자열압축.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "문자열압축.swift"; sourceTree = "<group>"; };
 		C32BCE6626D29EC300CFFF27 /* 수찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수찾기.swift"; sourceTree = "<group>"; };
 		C368154926CB4A8200A22EF1 /* SolveAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SolveAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				C368157E26CB50CB00A22EF1 /* 키패드누르기.swift */,
 				C38126E826CEAA9F00E436BA /* 기능개발.swift */,
 				C368158026CB50CB00A22EF1 /* 타겟넘버.swift */,
+				C31A46F926D7DC420095BB02 /* 멀쩡한사각형.swift */,
 				C32BCE6426D14CB900CFFF27 /* 문자열압축.swift */,
 				C3F7333226CD27B5005FA7D5 /* 다리를지나는트럭.swift */,
 			);
@@ -193,6 +196,7 @@
 			files = (
 				C32BCE6726D29EC300CFFF27 /* 수찾기.swift in Sources */,
 				C31A46F826D7D1410095BB02 /* MakeOne.swift in Sources */,
+				C31A46FA26D7DC420095BB02 /* 멀쩡한사각형.swift in Sources */,
 				C38126E926CEAA9F00E436BA /* 기능개발.swift in Sources */,
 				C368156E26CB4B3F00A22EF1 /* 팰린드롬수.swift in Sources */,
 				C368156C26CB4B3F00A22EF1 /* 직사각형에서탈출.swift in Sources */,

@@ -7,5 +7,5 @@
 
 import Foundation
 
-let result = makeOne(26)
+let result = normalSquare(8, 12)
 print(result)
