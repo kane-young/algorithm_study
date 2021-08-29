@@ -7,5 +7,5 @@
 
 import Foundation
 
-let result = normalSquare(8, 12)
+let result = removePairs("abbabb")
 print(result)
