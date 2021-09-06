@@ -2,6 +2,12 @@
 
 특정 알고리즘이 아닌 Swift Coding Test를 풀때 도움이 되는 것들
 
+
+
+<br>
+
+<br>
+
 ## 입출력
 
 요즘 코딩테스트 플랫폼들에서는 입력을 직접 하라고 하지 않고, func 의 매개변수로 입력값을 넣어주도록 한다
@@ -45,6 +51,7 @@ import 할 필요 없이 사용할 수 있는 기본 method
 - [String.SubSequence]를 리턴해서 map 으로 처리를 해주어야 함
 - 용량이 적다
 
+<br>
 
 <br>
 
@@ -60,8 +67,13 @@ import 할 필요 없이 사용할 수 있는 기본 method
 ```swift
 ceil(1.1) // 2.0
 floor(1.1) // 1.0
-truc(1.1) // 1.0
+trunc(1.1) // 1.0
 round(1.1) // 1.0
+
+ceil(-2.5) // -2.0
+floor(-2.5) // -3.0
+trunc(-2.5) // -2.0
+round(-2.5) // -3.0
 ```
 
 ## zip
@@ -69,7 +81,6 @@ round(1.1) // 1.0
 두개의 sequence를 합쳐서 튜플을 element 로 가지는 하나의 sequence로 리턴
 
 ```swift
-
 let sequence1 = ["kim", "lee", "park", "choi"]
 let sequence2 = [1, 2, 3, 4]
 

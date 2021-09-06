@@ -7,5 +7,5 @@
 
 import Foundation
 
-let result = removePairs("abbabb")
+let result = renewalMenu(["ABCFG", "AC", "CDE", "ACDE", "BCFG", "ACDEH"], [2,3,4])
 print(result)
